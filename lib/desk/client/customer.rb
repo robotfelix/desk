@@ -3,7 +3,7 @@ module Desk
     module Customer
 
       def customer_endpoints
-        [ :list, :show, :create, :update, :search ]
+        [ :list, :show, :create, :update, :search, :create_merge ]
       end
 
       def customer_add_key(key, customer, value, type)
